@@ -1,4 +1,5 @@
 import React from "react";
+import profilePhoto from "../assets/my-profile-photo.jpg";
 
 const Header = () => {
   return (
@@ -7,9 +8,9 @@ const Header = () => {
         <div className="row">
           <div className="col-xs-3 col-lg-2 text-center">
             <img
-              src="../assets/my-profile-photo.jpg"
+              src={ profilePhoto }
               alt="My Profile"
-              className="border border-5 rounded-circle img-fluid"
+              className="border border-5 rounded-circle"
               style={{ width: "150px", height: "150px" }}
             />
           </div>
