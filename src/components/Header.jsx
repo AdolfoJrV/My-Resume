@@ -7,8 +7,8 @@ const Header = () => {
         <div className="row">
           <div className="col-xs-3 col-lg-2 text-center">
             <img
-              src="https://www.seekpng.com/png/detail/110-1100707_person-avatar-placeholder.png"
-              alt="Person - Avatar Placeholder@seekpng.com"
+              src="../assets/my-profile-photo.jpg"
+              alt="My Profile"
               className="border border-5 rounded-circle img-fluid"
               style={{ width: "150px", height: "150px" }}
             />
@@ -16,8 +16,7 @@ const Header = () => {
           <div className="col text-center text-lg-start">
             <h1>Adolfo Jr. Villegas</h1>
             <p className="lead">
-              Software development student at SAIT (Southern Alberta Institute
-              of Technology).
+              Civil-Structural Designer / Full-Stack Software Developer
             </p>
             <ul className="list-inline">
               <li className="list-inline-item my-2">
@@ -32,12 +31,23 @@ const Header = () => {
                 </a>
               </li>
               <li className="list-inline-item my-2">
-                <a href="#" className="fs-5 link-light text-decoration-none">
+                <a
+                  href="https://www.linkedin.com/in/adolfojr-villegas-m/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="fs-5 link-light text-decoration-none"
+                >
                   <i className="bi bi-linkedin pe-1"></i> LinkedIn
                 </a>
               </li>
               <li className="list-inline-item my-2">
-                <a href="#" className="fs-5 link-light text-decoration-none">
+                <a
+                  href="https://github.com/AdolfoJrV"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="fs-5 link-light text-decoration-none"
+                >
+                  {" "}
                   <i className="bi bi-github pe-1"></i> GitHub
                 </a>
               </li>
