@@ -1,6 +1,15 @@
+.App {
+  background-color: #f5f5f5;
+}
+
+.colored-section {
+  background-color: #f5f5f5;
+  padding: 10px;
+}
+
 .custom-bg-image {
-  background-image: url('./texture02.jpg');
-  background-size: cover; 
+  background: url("./texture02.jpg");
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -13,3 +22,54 @@
   color: blue;
 }
 
+.btn-center-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #5a5a5a;
+  color: white;
+  box-shadow: none;
+}
+
+.btn-center-icon:hover {
+  background-color: #cdcdcd;
+  color: black;
+}
+
+/* darkmode classes */
+
+.custom-bg-image-dm {
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url("./texture02.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.h1-dm {
+  color: #e8e8e8;
+}
+
+.custom-white-link {
+  color: #e8e8e8;
+}
+
+.modeButton-dm {
+  background-color: #e8e8e8;
+  color: black;
+}
+
+.App-dm {
+  background-color: #6a6a6a;
+}
+
+.card-dm {
+  background-color: #323232;
+  color: #e8e8e8;
+  border: 1px solid #e8e8e8;
+}
+
+.colored-section-dm {
+  background-color: #6a6a6a;
+  padding: 10px;
+}

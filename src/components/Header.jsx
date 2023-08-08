@@ -1,9 +1,24 @@
-import React from "react";
+import React, { useContext } from "react";
 import profilePhoto from "../assets/my-profile-photo.jpg";
+import { Button } from "reactstrap";
+import ThemeContext from "./ThemeContext";
+import { CiDark, CiLight } from "react-icons/ci";
 
 const Header = () => {
+  const { isDarkMode, toggleTheme } = useContext(ThemeContext);
+
+  const onThemeButtonClicked = () => {
+    toggleTheme();
+  };
+
   return (
-    <header className="text-black custom-bg-image">
+    <header
+      className={
+        isDarkMode
+          ? "text-light custom-bg-image-dm"
+          : "text-black custom-bg-image"
+      }
+    >
       <div className="container py-5">
         <div className="row">
           <div className="col-xs-3 col-lg-2 text-center">
@@ -15,7 +30,7 @@ const Header = () => {
             />
           </div>
           <div className="col text-center text-lg-start">
-            <h1>Adolfo Jr. Villegas</h1>
+            <h1 className={isDarkMode ? "h1-dm" : ""}>Adolfo Jr. Villegas</h1>
             <p className="lead">
               Civil-Structural Designer / Full-Stack Software Developer
             </p>
@@ -23,7 +38,11 @@ const Header = () => {
               <li className="list-inline-item my-2">
                 <a
                   href="mailto:adolfojr.villlegas.m@gmail.com"
-                  className="fs-5 custom-black-link text-decoration-none"
+                  className={
+                    isDarkMode
+                      ? "fs-5 custom-white-link text-decoration-none"
+                      : "fs-5 custom-black-link text-decoration-none"
+                  }
                 >
                   <i className="bi bi-envelope pe-1"></i>
                   <span className="text-center">
@@ -36,7 +55,11 @@ const Header = () => {
                   href="https://www.linkedin.com/in/adolfojr-villegas-m/"
                   target="_blank"
                   rel="noreferrer"
-                  className="fs-5 custom-black-link text-decoration-none"
+                  className={
+                    isDarkMode
+                      ? "fs-5 custom-white-link text-decoration-none"
+                      : "fs-5 custom-black-link text-decoration-none"
+                  }
                 >
                   <i className="bi bi-linkedin pe-1"></i> LinkedIn
                 </a>
@@ -46,11 +69,27 @@ const Header = () => {
                   href="https://github.com/AdolfoJrV"
                   target="_blank"
                   rel="noreferrer"
-                  className="fs-5 custom-black-link text-decoration-none"
+                  className={
+                    isDarkMode
+                      ? "fs-5 custom-white-link text-decoration-none"
+                      : "fs-5 custom-black-link text-decoration-none"
+                  }
                 >
-                  {" "}
                   <i className="bi bi-github pe-1"></i> GitHub
                 </a>
+              </li>
+              <li className="list-inline-item my-2">
+                <button
+                  className={
+                    isDarkMode
+                      ? "modeButton-dm btn-center-icon"
+                      : "modeButton btn-center-icon"
+                  }
+                  size="sm"
+                  onClick={onThemeButtonClicked}
+                >
+                  {isDarkMode ? <CiLight /> : <CiDark />}
+                </button>
               </li>
             </ul>
           </div>
