@@ -11,22 +11,30 @@ const Education = () => {
       <CardTitle>Education</CardTitle>
       <ListUnstyled>
         <li>
+          <CardSubtitle>Full Stack Software Developer | Current</CardSubtitle>
+          <Description>
+            Southern Alberta Institute of Technology (SAIT)
+          </Description>
+        </li>
+        <li>
           <CardSubtitle>
-            Full Stack Software Developer | Current
+            Engineering Design and Drafting Technology (EDDT) | 2020-2021
           </CardSubtitle>
-          <Description>Southern Alberta Institute of Technology (SAIT)</Description>
+          <Description>
+            Southern Alberta Institute of Technology (SAIT)
+          </Description>
         </li>
         <li>
-          <CardSubtitle>Engineering Design and Drafting Technology (EDDT) | 2020-2021</CardSubtitle>
-          <Description>Southern Alberta Institute of Technology (SAIT)</Description>
+          <CardSubtitle>Petroleum Land Administration | 2019</CardSubtitle>
+          <Description>
+            Soutthern Alberta Institute of Technoclogy (SAIT)
+          </Description>
         </li>
         <li>
-        <CardSubtitle>Petroleum Land Administration | 2019</CardSubtitle>
-        <Description>Soutthern Alberta Institute of Technoclogy (SAIT)</Description>
-        </li>
-        <li>
-        <CardSubtitle>Bachelor's Degree in Civil Engineering | 1990-1995</CardSubtitle>
-        <Description>University of Santo Tomas (UST)</Description>
+          <CardSubtitle>
+            Bachelor's Degree in Civil Engineering | 1990-1995
+          </CardSubtitle>
+          <Description>University of Santo Tomas (UST)</Description>
         </li>
       </ListUnstyled>
     </Card>
