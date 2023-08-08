@@ -3,12 +3,12 @@ import profilePhoto from "../assets/my-profile-photo.jpg";
 
 const Header = () => {
   return (
-    <header className="text-white bg-dark">
+    <header className="text-black custom-bg-image">
       <div className="container py-5">
         <div className="row">
           <div className="col-xs-3 col-lg-2 text-center">
             <img
-              src={ profilePhoto }
+              src={profilePhoto}
               alt="My Profile"
               className="border border-5 rounded-circle"
               style={{ width: "150px", height: "150px" }}
@@ -23,7 +23,7 @@ const Header = () => {
               <li className="list-inline-item my-2">
                 <a
                   href="mailto:adolfojr.villlegas.m@gmail.com"
-                  className="fs-5 link-light text-decoration-none"
+                  className="fs-5 custom-black-link text-decoration-none"
                 >
                   <i className="bi bi-envelope pe-1"></i>
                   <span className="text-center">
@@ -36,7 +36,7 @@ const Header = () => {
                   href="https://www.linkedin.com/in/adolfojr-villegas-m/"
                   target="_blank"
                   rel="noreferrer"
-                  className="fs-5 link-light text-decoration-none"
+                  className="fs-5 custom-black-link text-decoration-none"
                 >
                   <i className="bi bi-linkedin pe-1"></i> LinkedIn
                 </a>
@@ -46,7 +46,7 @@ const Header = () => {
                   href="https://github.com/AdolfoJrV"
                   target="_blank"
                   rel="noreferrer"
-                  className="fs-5 link-light text-decoration-none"
+                  className="fs-5 custom-black-link text-decoration-none"
                 >
                   {" "}
                   <i className="bi bi-github pe-1"></i> GitHub

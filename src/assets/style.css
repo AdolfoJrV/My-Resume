@@ -1,3 +1,15 @@
-header {
-	/*max-height: 75vh;*/
+.custom-bg-image {
+  background-image: url('./texture02.jpg');
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
 }
+
+.custom-black-link {
+  color: black;
+}
+
+.custom-black-link:hover {
+  color: blue;
+}
+
