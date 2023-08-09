@@ -6,7 +6,7 @@ const Card = (props) => {
   const { isDarkMode } = useContext(ThemeContext);
 
   return (
-    <div className="col-md">
+    <div className="col-md mb-3">
       <div className={isDarkMode ? "card-dm" : "card"}>
         <div className="card-body">{children}</div>
       </div>
