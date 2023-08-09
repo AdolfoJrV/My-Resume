@@ -11,9 +11,9 @@ const TechSkillSet1 = () => {
           <Description>AutoCAD</Description>
           <Description>ArcGIS</Description>
           <Description>SAFE</Description>
-          <Description>HTML</Description>
-          <Description>Node.js</Description>
-          <Description>SQL</Description>
+          <Description>Autodesk Revit</Description>
+          <Description>Navisworks</Description>
+          <Description>Risa 3D</Description>
         </li>
       </ListUnstyled>
     </Card>

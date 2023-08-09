@@ -8,12 +8,12 @@ const TechSkillSet2 = () => {
     <Card>
       <ListUnstyled>
         <li>
-          <Description>Autodesk Revit</Description>
-          <Description>Navisworks</Description>
-          <Description>Risa 3D</Description>
-          <Description>CSS</Description>
-          <Description>Express.js</Description>
-          <Description>Python</Description>
+          <Description>Civil 3D</Description>
+          <Description>Bluebeam Revu</Description>
+          <Description>STAAD</Description>
+          <Description>CADWorx</Description>
+          <Description>ETABS</Description>
+          <Description>Photoshop/Canva</Description>
         </li>
       </ListUnstyled>
     </Card>

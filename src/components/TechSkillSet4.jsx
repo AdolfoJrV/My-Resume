@@ -8,11 +8,11 @@ const TechSkillSet4 = () => {
     <Card>
       <ListUnstyled>
         <li>
-          <Description>CADWorx</Description>
-          <Description>ETABS</Description>
-          <Description>Photoshop/Canva</Description>
-          <Description>React</Description>
+          <Description>Python</Description>
+          <Description>Linux</Description>
+          <Description>MongoDB</Description>
           <Description>Mongoose</Description>
+          <Description>React</Description>
           <Description>Git Version Control</Description>
         </li>
       </ListUnstyled>
