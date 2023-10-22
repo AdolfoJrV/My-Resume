@@ -11,7 +11,7 @@ const Education = () => {
       <CardTitle>Education</CardTitle>
       <ListUnstyled>
         <li>
-          <CardSubtitle>Full Stack Software Developer | Current</CardSubtitle>
+          <CardSubtitle>Full Stack Software Development | 2023</CardSubtitle>
           <Description>
             Southern Alberta Institute of Technology (SAIT)
           </Description>

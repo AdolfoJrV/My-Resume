@@ -3,21 +3,21 @@ import ListUnstyled from "./ListUnstyled";
 import Description from "./Description";
 import Card from "./Card";
 
-const TechSkillSet4 = () => {
+const TechSkillSet2 = () => {
   return (
     <Card>
       <ListUnstyled>
         <li>
-          <Description>Python</Description>
-          <Description>Linux</Description>
-          <Description>MongoDB</Description>
-          <Description>Mongoose</Description>
-          <Description>React</Description>
-          <Description>Git Version Control</Description>
+          <Description>Civil 3D</Description>
+          <Description>Bluebeam Revu</Description>
+          <Description>STAAD</Description>
+          <Description>CADWorx</Description>
+          <Description>ETABS</Description>
+          <Description>Photoshop/Canva</Description>
         </li>
       </ListUnstyled>
     </Card>
   );
 };
 
-export default TechSkillSet4;
+export default TechSkillSet2;

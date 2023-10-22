@@ -1,6 +1,5 @@
 import React, { useContext } from "react";
 import profilePhoto from "../assets/my-profile-photo.jpg";
-import { Button } from "reactstrap";
 import ThemeContext from "./ThemeContext";
 import { CiDark, CiLight } from "react-icons/ci";
 
@@ -32,7 +31,7 @@ const Header = () => {
           <div className="col text-center text-lg-start">
             <h1 className={isDarkMode ? "h1-dm" : ""}>Adolfo Jr. Villegas</h1>
             <p className="lead">
-              Civil-Structural Designer / Full-Stack Software Developer
+              Civil-Structural Designer / Full Stack Software Developer
             </p>
             <ul className="list-inline">
               <li className="list-inline-item my-2">

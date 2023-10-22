@@ -57,6 +57,41 @@ const PersonalProjects = () => {
             (i.e. crypto-js, elliptic, inherits, etc.).
           </Description>
         </li>
+        <li>
+          <CardSubtitle>Student Management System</CardSubtitle>
+          <Description>
+            Built a student-management system app using ASP.NET MVC, Entity and
+            Identity Framework Core.
+          </Description>
+        </li>
+        <li>
+          <CardSubtitle>Asset Management System</CardSubtitle>
+          <Description>
+            Built an asset management system app utilizing ASP.NET MVC, Entity
+            and Identity Framework Core.
+          </Description>
+        </li>
+        <li>
+          <CardSubtitle>Travel Experts App</CardSubtitle>
+          <Description>
+            Built a web application for a travel agency to manage customer
+            bookings and data management utilizing ASP.NET MVC, Entity and
+            Identity Framework Core.
+          </Description>
+        </li>
+        <li>
+          <CardSubtitle>
+            Enhancing Health Suveillance: Predictive Modelling of Smoking and
+            Drinking Habits
+          </CardSubtitle>
+          <Description>
+            Analysis and Model Solution - Machine Learning Application. Built a
+            predictive model capable of classifying individuals based on their
+            smoking and drinking behaviours, thereby contributing to enhanced
+            health surveillance. MLOS application was utilized in the
+            development of this model.
+          </Description>
+        </li>
       </ListUnstyled>
     </Card>
   );
