@@ -8,7 +8,7 @@ const TechSkillSet4 = () => {
     <Card>
       <ListUnstyled>
         <li>
-          <Description>Python</Description>
+          <Description>Python (FastAPI)</Description>
           <Description>Linux</Description>
           <Description>MongoDB</Description>
           <Description>Mongoose</Description>

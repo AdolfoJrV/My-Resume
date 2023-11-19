@@ -19,13 +19,13 @@ const WorkExperience = () => {
             <li>
               <Description>
                 Front-End Development: Developing user-friendly and responsive
-                web interfaces using HTML, CSS, and JavaScript.
+                web interfaces using React, Javascript, HTML, and CSS.
               </Description>
             </li>
             <li>
               <Description>
                 Back-End Development: Developing the server-side logic and APIs
-                using Python, Ruby, and Node.js.
+                using Python, Ruby, Node.js, and FastAPI.
               </Description>
             </li>
             <li>

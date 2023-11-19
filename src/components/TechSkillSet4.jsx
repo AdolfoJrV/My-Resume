@@ -13,7 +13,7 @@ const TechSkillSet2 = () => {
           <Description>STAAD</Description>
           <Description>CADWorx</Description>
           <Description>ETABS</Description>
-          <Description>Photoshop/Canva</Description>
+          <Description>Photoshop / Canva</Description>
         </li>
       </ListUnstyled>
     </Card>
