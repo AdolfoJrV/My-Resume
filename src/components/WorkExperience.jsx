@@ -115,6 +115,79 @@ const WorkExperience = () => {
         </li>
         <li>
           <CardSubtitle>
+            Resident Building Manager | Marquee on 16th Calgary Inc., Calgary
+            AB, Canada 2017-2021
+          </CardSubtitle>
+          <ul style={{ listStyleType: "disc" }}>
+            <li>
+              <Description>
+                Directed holistic operations overseeing maintenance,
+                serviceability, and quality assurance for the upscale
+                residential complex, Marquee on 16th, situated on 16th Ave. in
+                Calgary.
+              </Description>
+            </li>
+            <li>
+              <Description>
+                Implemented and supervised cutting-edge security, fire
+                prevention, and safey systems, seamlessly coodinated with
+                routine building maintenance and janitorial services.
+              </Description>
+            </li>
+            <li>
+              <Description>
+                Spearheaded the seamless provision of reliable utility services,
+                contributing to an enhanced overall living experience for all
+                residents.
+              </Description>
+            </li>
+            <li>
+              <Description>
+                Conducted routine, meticulous building inspections, promptly
+                identifying and addressing signs of damage or maintenance
+                requirements, upholding the highest standards of property upkeep
+                at Marquee on 16th.
+              </Description>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <CardSubtitle>
+            Senior Assistant Resident Building Manager | Oxford Properties Group, Brampton
+            ON, Canada 2014-2017
+          </CardSubtitle>
+          <ul style={{ listStyleType: "disc" }}>
+            <li>
+              <Description>
+               Orchestrated safety and maintenance operations for the expansive
+               residential property, 85 and 95 Charolais Boulevard Brampton Towers,
+               owned by Oxford Properties.
+              </Description>
+            </li>
+            <li>
+              <Description>
+                Demonstrated exceptional leadership, ensuring rigorous compliance
+                with all applicable regulations and establishing a robust
+                framework for safety and maintenance protocols.
+              </Description>
+            </li>
+            <li>
+              <Description>
+                Exhibited strong leadership skills in planning and executing both
+                preventive and corrective maintenance actions for civil, structures,
+                and architectural assets.
+              </Description>
+            </li>
+            <li>
+              <Description>
+                Achieved minimal downtime and maximized asset utilization through
+                strategic planning and deployment of maintenance initiatives.
+              </Description>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <CardSubtitle>
             Senior Structural Designer | Qatar Energy, RLIC/Doha, Qatar
             2005-2014
           </CardSubtitle>
