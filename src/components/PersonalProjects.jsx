@@ -13,7 +13,7 @@ const PersonalProjects = () => {
         <li>
           <CardSubtitle>AI & Neural Network</CardSubtitle>
           <Description>
-            Built a simple neural network and an artificial intelligence that
+            Built a neural network and an artificial intelligence that
             can recognize handwritten numbers utilizing python library (i.e.
             numpy, matplotlib).
           </Description>
@@ -27,13 +27,13 @@ const PersonalProjects = () => {
         <li>
           <CardSubtitle>Dice Game</CardSubtitle>
           <Description>
-            Built a simple dice game using HTML, CSS, and Javascript.
+            Built a dice game using HTML, CSS, and Javascript.
           </Description>
         </li>
         <li>
           <CardSubtitle>Alien Invasion Game</CardSubtitle>
           <Description>
-            Built a simple alien invasion game utlizing python dyango library.
+            Built an alien invasion game utlizing python dyango library.
           </Description>
         </li>
         <li>
@@ -46,28 +46,28 @@ const PersonalProjects = () => {
         <li>
           <CardSubtitle>Newsletter-Signup Form</CardSubtitle>
           <Description>
-            Built a sign-up form implement OAuth security and deployed it using
+            Built a sign-up form implementing OAuth security and deployed it using
             Heroku.
           </Description>
         </li>
         <li>
           <CardSubtitle>Blockchain</CardSubtitle>
           <Description>
-            Implemented a simple blockchain using Javascript and node modules
+            Implemented a blockchain using Javascript and node modules
             (i.e. crypto-js, elliptic, inherits, etc.).
           </Description>
         </li>
         <li>
           <CardSubtitle>Student Management System</CardSubtitle>
           <Description>
-            Built a student-management system app using ASP.NET MVC, Entity and
+            Built an e-commerce student-management system app using ASP.NET MVC, Entity and
             Identity Framework Core.
           </Description>
         </li>
         <li>
           <CardSubtitle>Asset Management System</CardSubtitle>
           <Description>
-            Built an asset management system app utilizing ASP.NET MVC, Entity
+            Built an e-commerce asset management system app utilizing ASP.NET MVC, Entity
             and Identity Framework Core.
           </Description>
         </li>
