@@ -22,8 +22,10 @@ function App() {
           <WorkExperience />
         </Row>
         <Row>
-          <PersonalProjects />
           <Education />
+        </Row>
+        <Row>
+          <PersonalProjects />
         </Row>
         <Row>
           <Skills />

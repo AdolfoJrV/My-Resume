@@ -15,7 +15,7 @@ const TechSkillSet4 = () => {
           <Description>React</Description>
           <Description>ASP.NET MVC</Description>
           <Description>Entity Framework Core</Description>
-          <Description>Git Version Control</Description>
+          <Description>Git</Description>
         </li>
       </ListUnstyled>
     </Card>
