@@ -9,7 +9,8 @@ const SoftSkillSet1 = () => {
       <ListUnstyled>
         <li>
           <Description>Leadership</Description>
-          <Description>Problem-Solving & Critical Thinking</Description>
+          <Description>Problem-Solving</Description>
+          <Description>Critical Thinking</Description>
           <Description>Conflict Resolution</Description>
         </li>
       </ListUnstyled>

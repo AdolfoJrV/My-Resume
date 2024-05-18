@@ -8,7 +8,8 @@ const SoftSkillSet3 = () => {
     <Card>
       <ListUnstyled>
         <li>
-          <Description>Teamwork & Collaboration</Description>
+          <Description>Teamwork</Description>
+          <Description>Collaboration</Description>
           <Description>Time Management</Description>
           <Description>Decision-Making</Description>
         </li>
