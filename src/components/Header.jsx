@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import profilePhoto from "../assets/my-profile-photo.jpg";
+import profilePhoto from "../assets/adolfov-profile-photo.jpg";
 import ThemeContext from "./ThemeContext";
 import { CiDark, CiLight } from "react-icons/ci";
 
