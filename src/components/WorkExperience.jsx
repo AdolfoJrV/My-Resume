@@ -4,6 +4,7 @@ import CardTitle from "./CardTitle";
 import ListUnstyled from "./ListUnstyled";
 import CardSubtitle from "./CardSubtitle";
 import Description from "./Description";
+import GasLiquids from "./GasLiquids";
 
 const WorkExperience = () => {
   return (
@@ -51,38 +52,7 @@ const WorkExperience = () => {
           </ul>
         </li>
         <li>
-          <CardSubtitle>
-            Grading/Structural Designer | GasLiquids Engineering Ltd., Calgary,
-            AB, Canada 2022-2023
-          </CardSubtitle>
-          <ul style={{ listStyleType: "disc" }}>
-            <li>
-              <Description>
-                Carry out 3D modeling and designs of structural frame elements
-                while maintaining close coordination with other
-                desingers/engineers of other disciplines.
-              </Description>
-            </li>
-            <li>
-              <Description>
-                Detailing and maintaining technical engineering drawings
-                extracted from 3D models for every project phases: conceptual,
-                preliminary, development, IFC, and As-Builts.
-              </Description>
-            </li>
-            <li>
-              <Description>
-                Delivered 100% completion, within budget, and on-schedule the
-                structural design and documentations for the following projects:
-                Empress 6 Propane Accumulator Replacement, Cenovus Wapiti
-                Expansion, Nordegg Compressor Station Expansion, Aitken Creek
-                Gas Plant, ATCO Hydrogen Storage Micro Cavern Feed, Cenovus Sand
-                Creek Compressor Station, Karr Gas Plant Spent Scavenger Tank
-                Conversion, Empress I-VI Plains, and PFS Train#1 Debottleneck
-                Pre-Feed and Feed For Saskatchewan.
-              </Description>
-            </li>
-          </ul>
+          <GasLiquids></GasLiquids>
         </li>
         <li>
           <CardSubtitle>
@@ -153,35 +123,36 @@ const WorkExperience = () => {
         </li>
         <li>
           <CardSubtitle>
-            Senior Assistant Resident Building Manager | Oxford Properties Group, Brampton
-            ON, Canada 2014-2017
+            Senior Assistant Resident Building Manager | Oxford Properties
+            Group, Brampton ON, Canada 2014-2017
           </CardSubtitle>
           <ul style={{ listStyleType: "disc" }}>
             <li>
               <Description>
-               Orchestrated safety and maintenance operations for the expansive
-               residential property, 85 and 95 Charolais Boulevard Brampton Towers,
-               owned by Oxford Properties.
+                Orchestrated safety and maintenance operations for the expansive
+                residential property, 85 and 95 Charolais Boulevard Brampton
+                Towers, owned by Oxford Properties.
               </Description>
             </li>
             <li>
               <Description>
-                Demonstrated exceptional leadership, ensuring rigorous compliance
-                with all applicable regulations and establishing a robust
-                framework for safety and maintenance protocols.
+                Demonstrated exceptional leadership, ensuring rigorous
+                compliance with all applicable regulations and establishing a
+                robust framework for safety and maintenance protocols.
               </Description>
             </li>
             <li>
               <Description>
-                Exhibited strong leadership skills in planning and executing both
-                preventive and corrective maintenance actions for civil, structures,
-                and architectural assets.
+                Exhibited strong leadership skills in planning and executing
+                both preventive and corrective maintenance actions for civil,
+                structures, and architectural assets.
               </Description>
             </li>
             <li>
               <Description>
-                Achieved minimal downtime and maximized asset utilization through
-                strategic planning and deployment of maintenance initiatives.
+                Achieved minimal downtime and maximized asset utilization
+                through strategic planning and deployment of maintenance
+                initiatives.
               </Description>
             </li>
           </ul>
